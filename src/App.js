@@ -13,7 +13,7 @@ function App() {
     <>
     <NavigationBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="project" element={<Project />} />
         <Route path="projectgallery" element={<ProjectGallery />} />
         <Route path="contact" element={<Contact />} />

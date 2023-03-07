@@ -1,17 +1,19 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logo from "../assets/jec_logo_v2.png";
 
 const NavigationBar = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Container className="d-flex justify-content-around">
+        <Navbar.Brand href="Home">
+          <img src={logo} width={75} alt="Personal Logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto d-flex gap-5">
             <Nav.Link href="Home">Home</Nav.Link>
             <Nav.Link href="Project">Project</Nav.Link>
             <Nav.Link href="ProjectGallery">Project Gallery</Nav.Link>
@@ -21,6 +23,6 @@ const NavigationBar = () => {
       </Container>
     </Navbar>
   );
-}
+};
 
-export default NavigationBar
+export default NavigationBar;
