@@ -7,7 +7,7 @@ import logo from "../assets/jec_logo_v2.png";
 const NavigationBar = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Container className="d-flex justify-content-around">
+      <Container>
         <Navbar.Brand href="Home">
           <img src={logo} width={75} alt="Personal Logo" />
         </Navbar.Brand>
