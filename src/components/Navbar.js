@@ -15,7 +15,6 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto d-flex gap-5">
             <Nav.Link href="Home">Home</Nav.Link>
-            <Nav.Link href="Project">Project</Nav.Link>
             <Nav.Link href="ProjectGallery">Project Gallery</Nav.Link>
             <Nav.Link href="Contact">Contact</Nav.Link>
           </Nav>

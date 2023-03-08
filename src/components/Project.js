@@ -1,18 +1,22 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react"
+import { Link } from "react-router-dom"
 
-const Project = ({ project }) => {
+function Project(props) {
+  const { title, deployedUrl, githubUrl, image } = props.project;
+
   return (
     <div>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
-      <a href={project.deployedUrl}>Link to deployed version</a>
-      <a href={project.githubUrl}>Link to GitHub repository</a>
-      <img src={project.image} alt={`Screenshot of ${project.title}`} />
-      {/* or use <img src={project.gif} alt={`GIF of ${project.title}`} /> if a GIF is available */}
-      <Link to={`/projects/${project.id}`}>View project</Link>
+      <h2>{title}</h2>
+      <img src={image} alt={title} />
+      <p>
+        <a href={deployedUrl}>Deployed Version</a>
+      </p>
+      <p>
+        <a href={githubUrl}>GitHub Repository</a>
+      </p>
+      <Link to={`/projects/${props.project.id}`}>View Project</Link>
     </div>
-  )
+  );
 }
 
 export default Project

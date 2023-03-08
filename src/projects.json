@@ -1,9 +1,10 @@
+
 [
     {
         "id": 1,
         "title": "Project 1",
         "description": "This is the first project",
-        "deployedUrl": "",
+        "deployedUrl": "www.google.com",
         "githubUrl": "",
         "image": "project1.jpg"
     },
