@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 code {
@@ -31,12 +38,20 @@ code {
 
 .jumbotron__content {
   width: 75%;
-
+  border-left: 2px solid black;
+  padding-left: 2em;
 }
+
 .jumbotron__content h1 {
   font-size: 3em;
   font-weight: bold;
 
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px)

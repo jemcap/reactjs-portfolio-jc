@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import Image from "../assets/jcap_film_1_wtape.png";
 
 const Home = () => {
   return (
@@ -19,6 +20,33 @@ const Home = () => {
               <p>
                 <Button bsStyle="secondary">Learn more</Button>
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="container">
+          <div className="about__container d-flex">
+            <div className="about__text">
+              <h1>About me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                dolore error dignissimos at, soluta quia placeat. Totam, cum
+                delectus dolores laudantium incidunt distinctio animi officia,
+                dicta vero commodi nesciunt iusto explicabo sapiente, molestiae
+                libero tempora exercitationem veniam eos alias? Rem temporibus
+                cumque asperiores eveniet vitae laudantium facilis distinctio
+                rerum nostrum hic quo est consequuntur praesentium iusto,
+                blanditiis voluptatibus culpa possimus ad accusantium magni!
+                Voluptas, dignissimos iusto. Tempora illum itaque unde eveniet
+                eaque minus, consequuntur ipsa illo modi velit, repudiandae
+                pariatur ipsum voluptates veritatis? Distinctio dolorem odio
+                similique, exercitationem vel odit accusantium illum quaerat,
+                laudantium autem assumenda quasi dolore nisi laboriosam!
+              </p>
+            </div>
+            <div>
+              <img src={Image} width={550} alt="Self-Portrait" />
             </div>
           </div>
         </div>
