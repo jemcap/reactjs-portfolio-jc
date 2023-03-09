@@ -59,7 +59,9 @@ code {
   flex-direction: row;
 }
 
-
+.contact-section {
+  margin: 5em;
+}
 .contact-form {
   display: flex;
   flex-direction: column;

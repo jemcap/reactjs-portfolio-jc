@@ -15,10 +15,10 @@ const Home = () => {
             </p>
             <div className="d-flex gap-2">
               <p>
-                <Button bsStyle="primary">Learn more</Button>
+                <Button bsStyle="primary">Projects</Button>
               </p>
               <p>
-                <Button bsStyle="secondary">Learn more</Button>
+                <Button bsStyle="secondary">Follow me!</Button>
               </p>
             </div>
           </div>
