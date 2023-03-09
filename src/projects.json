@@ -23,5 +23,29 @@
         "deployedUrl": "",
         "githubUrl": "",
         "image": "project3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Project 4",
+        "description": "This is the third project",
+        "deployedUrl": "",
+        "githubUrl": "",
+        "image": "project4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Project 5",
+        "description": "This is the third project",
+        "deployedUrl": "",
+        "githubUrl": "",
+        "image": "project5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Project 6",
+        "description": "This is the third project",
+        "deployedUrl": "",
+        "githubUrl": "",
+        "image": "project6.jpg"
     }
 ]

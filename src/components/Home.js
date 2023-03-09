@@ -26,7 +26,7 @@ const Home = () => {
       </div>
       <div>
         <div className="container">
-          <div className="about__container d-flex">
+          <div className="about__container">
             <div className="about__text">
               <h1>About me</h1>
               <p>
@@ -45,8 +45,8 @@ const Home = () => {
                 laudantium autem assumenda quasi dolore nisi laboriosam!
               </p>
             </div>
-            <div>
-              <img src={Image} width={550} alt="Self-Portrait" />
+            <div className="img__container">
+              <img className="about__image" src={Image} width={550} alt="Self-Portrait" />
             </div>
           </div>
         </div>
