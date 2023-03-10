@@ -24,17 +24,17 @@ function Contact() {
     <div className="contact-section">
       <h2>Contact me!</h2>
       <div className="contact-info">
-        <a href="">
+        <a href="mailto:joshuaecapito22@gmail.com">
           <i className="fa-regular fa-envelope"></i>
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/joshuaecapito/">
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/capitogram/">
           <i className="fa-brands fa-instagram"></i>
         </a>
       </div>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form mt-5" onSubmit={handleSubmit}>
         <h3>Contact Form</h3>
         <label htmlFor="name">Name</label>
         <input

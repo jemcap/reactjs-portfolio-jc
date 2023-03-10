@@ -61,10 +61,20 @@ code {
 
 .contact-section {
   margin: 5em;
+
 }
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+
+
+
+.fa-envelope,
+.fa-linkedin,
+.fa-instagram {
+  font-size: 2.5em;
+  padding: 0.2em;
 }
 
 @media screen and (max-width: 1024px)

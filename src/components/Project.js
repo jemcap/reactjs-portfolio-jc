@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+
 function Project(props) {
   const { title, deployedUrl, githubUrl, image } = props.project;
 

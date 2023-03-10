@@ -9,16 +9,17 @@ const Home = () => {
         <div className="wrapper__jumbotron">
           <div className="jumbotron__content">
             <h1>Joshua Emmanuel Capito</h1>
-            <p>
-              This is a simple hero unit, a simple jumbotron-style component for
-              calling extra attention to featured content or information.
-            </p>
+            <p>Front-End Web Developer based in Cambridge, UK.</p>
             <div className="d-flex gap-2">
               <p>
-                <Button bsStyle="primary">Projects</Button>
+                <a href="https://github.com/jemcap">
+                  <Button className="btn btn-primary">Projects</Button>
+                </a>
               </p>
               <p>
-                <Button bsStyle="secondary">Follow me!</Button>
+                <a href="https://www.instagram.com/capitogram/">
+                  <Button className="btn btn-secondary">Follow me!</Button>
+                </a>
               </p>
             </div>
           </div>
@@ -46,7 +47,12 @@ const Home = () => {
               </p>
             </div>
             <div className="img__container">
-              <img className="about__image" src={Image} width={550} alt="Self-Portrait" />
+              <img
+                className="about__image"
+                src={Image}
+                width={550}
+                alt="Self-Portrait"
+              />
             </div>
           </div>
         </div>

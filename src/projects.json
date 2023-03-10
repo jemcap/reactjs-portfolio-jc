@@ -2,50 +2,50 @@
 [
     {
         "id": 1,
-        "title": "Project 1",
+        "title": "Feeltune Journal",
         "description": "This is the first project",
-        "deployedUrl": "www.google.com",
-        "githubUrl": "",
-        "image": "project1.jpg"
+        "deployedUrl": "https://malyun39.github.io/feeltune-journal/",
+        "githubUrl": "https://github.com/jemcap/feeltune-journal",
+        "image": "feeltuneJournalImage"
     },
     {
         "id": 2,
-        "title": "Project 2",
+        "title": "Online Diary Planner",
         "description": "This is the second project",
-        "deployedUrl": "",
-        "githubUrl": "",
-        "image": "project2.jpg"
+        "deployedUrl": "https://jemcap.github.io/online-daily-planner/",
+        "githubUrl": "https://github.com/jemcap/online-daily-planner",
+        "image": "src/assets/online-diary-planner-ss.png"
     },
     {
         "id": 3,
-        "title": "Project 3",
+        "title": "Code Quiz",
         "description": "This is the third project",
-        "deployedUrl": "",
-        "githubUrl": "",
-        "image": "project3.jpg"
+        "deployedUrl": "https://jemcap.github.io/code-quiz/",
+        "githubUrl": "https://github.com/jemcap/code-quiz",
+        "image": "src/assets/coding-quiz.png"
     },
     {
         "id": 4,
-        "title": "Project 4",
+        "title": "Online Cohort Builder",
         "description": "This is the third project",
-        "deployedUrl": "",
-        "githubUrl": "",
+        "deployedUrl": "https://github.com/jemcap/online-cohort-builder",
+        "githubUrl": "https://github.com/jemcap/online-cohort-builder",
         "image": "project4.jpg"
     },
     {
         "id": 5,
-        "title": "Project 5",
+        "title": "Online Password Generator",
         "description": "This is the third project",
-        "deployedUrl": "",
-        "githubUrl": "",
-        "image": "project5.jpg"
+        "deployedUrl": "https://jemcap.github.io/random-password-generator/",
+        "githubUrl": "https://github.com/jemcap/random-password-generator",
+        "image": "src/assets/online-password-generator.png"
     },
     {
         "id": 6,
-        "title": "Project 6",
+        "title": "Dev Portfolio",
         "description": "This is the third project",
-        "deployedUrl": "",
-        "githubUrl": "",
-        "image": "project6.jpg"
+        "deployedUrl": "https://jemcap.github.io/Bootstrap-Portfolio/",
+        "githubUrl": "https://github.com/jemcap/Bootstrap-Portfolio",
+        "image": "src/assets/bootstrap-dev-portfolio.png"
     }
 ]
