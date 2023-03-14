@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Image from "../assets/jcap_film_1_wtape.png";
+import Image from "../images/jcap_film_1_wtape.png";
 
 const Home = () => {
   return (

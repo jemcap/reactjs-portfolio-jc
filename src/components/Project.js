@@ -8,7 +8,7 @@ function Project(props) {
   return (
     <div>
       <h2>{title}</h2>
-      <img src={image} alt={title} />
+      <img className="image__styling" src={image} alt={title} />
       <p>
         <a href={deployedUrl}>Deployed Version</a>
       </p>

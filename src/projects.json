@@ -6,7 +6,7 @@
         "description": "This is the first project",
         "deployedUrl": "https://malyun39.github.io/feeltune-journal/",
         "githubUrl": "https://github.com/jemcap/feeltune-journal",
-        "image": "feeltuneJournalImage"
+        "image": "/assets/feeltune-journal.png"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "This is the second project",
         "deployedUrl": "https://jemcap.github.io/online-daily-planner/",
         "githubUrl": "https://github.com/jemcap/online-daily-planner",
-        "image": "src/assets/online-diary-planner-ss.png"
+        "image": "/assets/online-diary-planner-ss.png"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "This is the third project",
         "deployedUrl": "https://jemcap.github.io/code-quiz/",
         "githubUrl": "https://github.com/jemcap/code-quiz",
-        "image": "src/assets/coding-quiz.png"
+        "image": "/assets/coding-quiz.png"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "This is the third project",
         "deployedUrl": "https://github.com/jemcap/online-cohort-builder",
         "githubUrl": "https://github.com/jemcap/online-cohort-builder",
-        "image": "project4.jpg"
+        "image": "/assets/online-password-generator.png"
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "description": "This is the third project",
         "deployedUrl": "https://jemcap.github.io/random-password-generator/",
         "githubUrl": "https://github.com/jemcap/random-password-generator",
-        "image": "src/assets/online-password-generator.png"
+        "image": "/assets/online-password-generator.png"
     },
     {
         "id": 6,
@@ -46,6 +46,6 @@
         "description": "This is the third project",
         "deployedUrl": "https://jemcap.github.io/Bootstrap-Portfolio/",
         "githubUrl": "https://github.com/jemcap/Bootstrap-Portfolio",
-        "image": "src/assets/bootstrap-dev-portfolio.png"
+        "image": "/assets/bootstrap-dev-portfolio.png"
     }
 ]

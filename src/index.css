@@ -77,6 +77,10 @@ code {
   padding: 0.2em;
 }
 
+.image__styling {
+  width: 200px;
+}
+
 @media screen and (max-width: 1024px)
 {
 .container-fluid .jumbotron, .container .jumbotron {
