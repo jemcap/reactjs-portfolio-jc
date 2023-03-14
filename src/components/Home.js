@@ -9,7 +9,7 @@ const Home = () => {
         <div className="wrapper__jumbotron">
           <div className="jumbotron__content">
             <h1>Joshua Emmanuel Capito</h1>
-            <p>Front-End Web Developer based in Cambridge, UK.</p>
+            <p>Front-End Web Developer based in Cambridge, UK!</p>
             <div className="d-flex gap-2">
               <p>
                 <a href="https://github.com/jemcap">
