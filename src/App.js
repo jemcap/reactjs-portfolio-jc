@@ -15,8 +15,8 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projectgallery" element={<ProjectGallery />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/ProjectGallery" element={<ProjectGallery />} />
+        <Route path="/Contact" element={<Contact />} />
         {projectsData.map((project) => (
           <Route key={project.id} path={`/projects/${project.id}`} element={<Project project={project} />} />
         ))}
