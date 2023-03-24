@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 
 
 function Project(props) {
-  const { title, deployedUrl, githubUrl, image } = props.project;
+  const { title, deployedUrl, githubUrl } = props.project;
 
   return (
     <div>
       <h2>{title}</h2>
-      <img className="image__styling" src={image} alt={title} />
+      <img className="image__styling" src={props.image} alt={title} />
       <p>
         <a href={deployedUrl}>Deployed Version</a>
       </p>
