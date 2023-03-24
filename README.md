@@ -11,7 +11,7 @@ This is my own Dev portfolio built using primarily React.js. This project allowe
 <hr/>
 
 ## **Demo**
-![Image](assets/roster-demo.png)
+![Image](src/assets/react-dev-portfolio.png)
 
 
 <hr/>
@@ -25,9 +25,7 @@ This is my own Dev portfolio built using primarily React.js. This project allowe
 <hr/>
 
 ## 💻 **Installation** <a name="#installation"></a>
-Initialise node by running in your terminal of choice `npm init -y`. Install `Node.js` and `npm`, to your local machine by running `node install -y`, to fully experience this application. Using `npm`, install the `inquirer` package by entering into the terminal: `npm i inquirer@ 6.3.1`.
-
-Tests can be done by firstly installing jest on your local machine by `npm install jest`.
+Fork and clone the repository and open the project. Install all required dependencies by running `npm install`
 
 <hr/>
 
